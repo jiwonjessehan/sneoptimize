@@ -1,0 +1,30 @@
+do_blind		0
+filenamelist		["REPLACE_LIST"]
+
+weird_sn_list		"$UNITY/paramfiles/weird_sn_list.txt"
+mag_cut			"$UNITY/paramfiles/mag_cuts.txt"
+stan_code		"$UNITY/scripts/XCALIBUR_runs/stan_code_simple.txt"
+
+
+min_redshift		0.01
+max_redshift		0.15
+max_firstphase		6.
+min_lastphase		0.
+max_color_uncertainty	0.2
+
+n_x1c_star		2
+
+# Units of c:
+pec_vel_disp		0.001
+# Units of magnitudes per redshift
+lensing_disp		0.055
+outl_frac		0.02
+calib_errs		
+
+
+do_twoalphabeta		0
+
+
+iter			2000
+n_jobs			4
+chains			4

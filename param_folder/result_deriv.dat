@@ -1,0 +1,6 @@
+#Parameter      MagSys|Instrument|Band    RestLamb         Phase    dmu/dP                dmB/dP                ds/dP                 dc/dP                 
+Zeropoint       VEGA|SDSS|SDSS_g          3986.33668043    All      -0.683949925073       0.44099764            -0.09821708           0.35908435983         
+Zeropoint       VEGA|SDSS|SDSS_i          6316.75624541    All      1.23477727247         -0.00674586999985     0.078984295           -0.3974338797         
+Zeropoint       VEGA|SDSS|SDSS_r          5208.95115458    All      0.564894419227        0.51942821            -0.013142834          -0.01517527397        
+Zeropoint       VEGA|SDSS|SDSS_u          3031.97827731    All      -0.119338062826       0.04653859            -0.00991833699999     0.05312466206         
+Check           All|All|All               All              All      0.996383703799        1.00021857            -0.042293956          -0.000400131780001    
