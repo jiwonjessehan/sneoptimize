@@ -35,10 +35,10 @@ from scipy.stats import norm
 #%% Define Directories
 root = environ['ROOTDIR']
 #print(root)
-dir_param_root = root+"/param_folder/"
-dir_sne = root+"/sim_sne/"
-dir_home = root+"/sim_sne_runs/"
-dir_union = root+"/union3/"
+dir_param_root = root+"param_folder/"
+dir_sne = root+"sim_sne/"
+dir_home = root+"sim_sne_runs/"
+dir_union = root+"union3/"
 
 #%% Define Functions
 def genParams(Nsne):
