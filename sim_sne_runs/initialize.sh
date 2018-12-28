@@ -1,3 +1,4 @@
 export PYTHONPATH=$PYTHONPATH:../sim_sne_runs/*/
-export UNITY=/Users/jhan/Desktop/UNITY/union3/
-export UNION=../sim_sne/ 
+export UNITY=$(git root)/union3/
+export UNION=$(git root)/sim_sne/
+export ROOTDIR=$(git root)/

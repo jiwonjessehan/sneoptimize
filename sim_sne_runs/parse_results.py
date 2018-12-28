@@ -9,12 +9,14 @@ import numpy as np
 import cPickle as pickle
 import matplotlib.pyplot as plt
 import gzip
+from os import environ
 
 #%% Define Directories
-dir_param_root = "/Users/jhan/Desktop/UNITY/param_folder/"
-dir_sne = "/Users/jhan/Desktop/UNITY/sim_sne/"
-dir_home = "/Users/jhan/Desktop/UNITY/sim_sne_runs/"
-dir_union = "/Users/jhan/Desktop/UNITY/union3/"
+root = environ['$ROOTDIR']
+dir_param_root = root+"/param_folder/"
+dir_sne = root_"/sim_sne/"
+dir_home = root+"/sim_sne_runs/"
+dir_union = root+"/union3/"
 
 #%%
 
