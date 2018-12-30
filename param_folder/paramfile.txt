@@ -2,7 +2,7 @@ do_blind		0
 filenamelist		["REPLACE_LIST"]
 
 weird_sn_list		"$UNITY/paramfiles/weird_sn_list.txt"
-mag_cut			"/Users/jhan/Desktop/UNITY/param_folder/mag_cuts.txt"
+mag_cut			"$ROOTDIR/param_folder/mag_cuts.txt"
 stan_code		"$UNITY/scripts/stan_code_simple.txt"
 
 
