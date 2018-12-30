@@ -1,2 +1,2 @@
 # sneoptimize
-# # source /sim_sne_runs/initialize.sh
+source /sim_sne_runs/initialize.sh
